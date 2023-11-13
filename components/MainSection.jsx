@@ -16,7 +16,7 @@ const MainSection = () => {
     >
       <div className='sm:flex sm:flex-col sm:items-start sm:bg-[#1E3446] sm:h-screen sm:py-20 sm:w-4/5 sm:px-14 rounded-br-[500px]'>
         <h1 className='text-white font-semibold text-center text-5xl leading-relaxed mb-3 sm:hidden'>{content.title}</h1>
-        <h1 className='text-white font-semibold text-center text-5xl leading-relaxed mb-3 hidden sm:text-start w-2/3'>{content.titleSm}</h1>
+        <h1 className='text-white font-semibold text-center text-5xl leading-relaxed mb-3 hidden sm:text-start sm:flex w-2/3'>{content.titleSm}</h1>
         <p className='text-center text-white sm:hidden'>{content.description}</p>
         <div className='flex flex-row gap-5 mt-5 justify-center'>
           <button

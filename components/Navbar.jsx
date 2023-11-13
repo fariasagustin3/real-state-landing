@@ -17,7 +17,7 @@ const Navbar = () => {
         <Image src={content.logo} className='w-24 sm:pl-20 sm:w-48' alt="" />
         <ul className='hidden sm:flex sm:flex-row sm:items-center sm:gap-5'>
           {content.links.map((link, index) => (
-            <li key={index} className='text-sm font-thin text-[#F6F6F6]'>{link}</li>
+            <li key={index} className='text-sm font-thin text-[#F6F6F6] cursor-pointer'>{link}</li>
           ))}
         </ul>
       </div>
