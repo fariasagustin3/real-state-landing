@@ -16,7 +16,7 @@ const Features = () => {
       {/* images section */}
       <div className='flex flex-col gap-8 sm:flex-row'>
         <div className='sm:flex sm:flex-col sm:w-2/3 sm:gap-5'>
-          <Image src={Image1} alt="" className='w-full' />
+          <Image src={Image1} alt="" className='w-full mb-5' />
           <div className='flex flex-row gap-5 px-2 items-center justify-center'>
             <Image src={Image2} alt="" className='w-1/2' />
             <Image src={Image3} alt="" className='w-1/2' />
