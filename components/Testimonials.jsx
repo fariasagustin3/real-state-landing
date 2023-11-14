@@ -53,15 +53,15 @@ const Testimonials = () => {
 
   return (
     <section className='flex flex-col px-5 mt-10 bg-[#F2F2F2] py-10'>
-      <h1 className='text-[#1E3446] text-sm text-left mb-5'>Testimonials</h1>
-      <h1 className='text-black text-3xl text-left font-bold mb-10'>Few Smiles and Comments</h1>
+      <h1 className='text-[#1E3446] text-sm text-left mb-5 sm:text-center'>Testimonials</h1>
+      <h1 className='text-black text-3xl text-left font-bold mb-10 sm:text-center sm:pb-10'>Few Smiles and Comments</h1>
       {slides.map((slide) => slide.id === currentIndex && (
         <div
-          className='relative self-center transition duration-1000 fade-enter-active'
+          className='relative self-center transition duration-1000 fade-enter-active sm:flex sm:justify-center'
           key={slide.id}
         >
-          <div className='w-80 h-full bg-white pt-20 pb-5 rounded-xl'>
-            <Image src={slide.picture} className='absolute w-20 top-0 right-0 left-0 m-auto z-10' style={{ marginTop: -20 }} />
+          <div className='relative w-80 h-full bg-white pt-20 pb-5 rounded-xl sm:w-3/5 '>
+            <Image src={slide.picture} className='absolute w-20 top-0 right-0 left-0 m-auto z-10' style={{ marginTop: -30 }} />
             <p className='text-black text-sm text-center px-5 mb-3'>{slide.testimonial}</p>
             <p className='text-xl text-black font-bold text-center mb-3'>{slide.author}</p>
             <p className='text-md text-[#606C84] font-medium text-center mb-3'>{slide.area}</p>
