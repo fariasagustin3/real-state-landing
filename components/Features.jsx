@@ -9,7 +9,7 @@ import Image6 from '../assets/image6.png';
 
 const Features = () => {
   return (
-    <section className='h-screen flex flex-col items-start mt-10 gap-5 px-5'>
+    <section className='h-full flex flex-col items-start mt-10 gap-5 px-5'>
       <h1 className='text-md text-[#1E3446] font-medium text-left sm:text-sm sm:mb-0'>Features</h1>
       <h2 className='text-3xl text-[#120A00] text-left font-bold'>We Provide the Best Property for you</h2>
 
