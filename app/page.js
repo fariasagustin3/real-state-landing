@@ -1,5 +1,6 @@
 import Courses from "@/components/Courses";
 import Features from "@/components/Features";
+import Footer from "@/components/Footer";
 import Gallery from "@/components/Gallery";
 import Join from "@/components/Join";
 import MainSection from "@/components/MainSection";
@@ -16,6 +17,7 @@ export default function Home() {
       <Gallery />
       <Testimonials />
       <Join />
+      <Footer />
     </main>
   )
 }

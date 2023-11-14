@@ -32,7 +32,7 @@ const Join = () => {
   return (
     <section className='flex flex-col items-start px-5 py-10 gap-5 sm:flex-row sm:justify-between sm:px-32 sm:py-0 sm:pt-10'>
       <div className='flex flex-col sm:flex-1'>
-        <h1 className='text-left text-black text-4xl font-bold'>{text.title}</h1>
+        <h1 className='text-left text-black text-4xl font-bold mb-5'>{text.title}</h1>
         <p className='text-left text-black text-md font-medium leading-relaxed sm:text-sm'>{text.description}</p>
         <div className='flex flex-col items-start mt-10'>
           {text.points.map((e, index) => (
